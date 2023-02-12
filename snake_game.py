@@ -3,4 +3,4 @@ import time
 
 pygame.init()
 
-screen = pygame.display
+screen = pygame.display.set
