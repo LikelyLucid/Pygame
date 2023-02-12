@@ -1,4 +1,4 @@
 import pygame
 import time
 
-py
+pygame.init()
