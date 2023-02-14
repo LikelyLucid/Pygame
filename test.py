@@ -1,3 +1,3 @@
 import os
 
-os.startfile("google.com")
+os.startfile("https://google.com")
