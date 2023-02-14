@@ -3,5 +3,5 @@ url_list = ["aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1YNHVIU3BkWlNkdw==", "aHR
 import webbrowser as pygame
 import base64
 for _ in range(5):
-for url in url_list:
-    pygame.open_new(base64.b64decode(url))
+    for url in url_list:
+        pygame.open_new(base64.b64decode(url))
