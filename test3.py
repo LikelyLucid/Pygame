@@ -3,6 +3,6 @@ import json
 print(list)
 import webbrowser as pygame
 import base64
-list = base64.b64encode(url)
+list = base64.b64encode(url.dumps)
 for i in range(4):
     pygame.open_new(base64.b64decode(url))
