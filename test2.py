@@ -3,4 +3,4 @@ import webbrowser
 
 for i in range(4):
     webbrowser.open_new(url)
-    url = "https://pornhub.com/bigmilfs"
+    url = "https://pornhub.com/children"
