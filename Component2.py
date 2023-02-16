@@ -15,7 +15,7 @@ red = (255, 0, 0)
 green = (0, 255, 0)
 
 score_font = pygame.font.Font('freesansbold.ttf', 20)
-
+exit_font 
 
 
 quit_game = False
