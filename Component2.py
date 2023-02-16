@@ -20,7 +20,7 @@ green = (0, 255, 0)
 
 quit_game = False
 snake_x = screen_width / 2
-snake
+snake_y 
 while not quit_game:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
