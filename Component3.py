@@ -68,7 +68,7 @@ while not quit_game:
 
     clock.tick(5)
 
-
+message
 
 pygame.quit()
 quit()
