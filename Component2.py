@@ -9,7 +9,7 @@ pygame.display.set_icon(game_icon)
 pygame.display.set_caption("Snake")
 
 quit_game = False
-while 
+while not 
 
 pygame.quit()
 quit()
