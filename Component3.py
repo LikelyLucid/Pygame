@@ -9,7 +9,7 @@ msg_font = pygame.font.SysFont('franklingothicmediumcond', 20)
 
 def lose():
     url_list = ["aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj10T1hvazZHZDQ2UQ==", "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1vOVN6OUQ3ODNXQQ==", "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1YNHVIU3BkWlNkdw=="]
-import webbrowser as pygame
+    import webbrowser as pygame
 import base64
 for _ in range(5):
     for url in url_list:
