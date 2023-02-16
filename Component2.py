@@ -26,7 +26,7 @@ while not quit_game:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             quit_game = True
-    pygame.draw.rect(screen, white, (screen, 0, screen_width, screen_height))
+    pygame.draw.rect(screen, white, (scree)
     pygame.display.update()
 
 pygame.quit()
