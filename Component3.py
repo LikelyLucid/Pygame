@@ -1,5 +1,6 @@
 import pygame
 import time
+import random
 pygame.init()
 
 score_font = pygame.font.SysFont('arialblack', 20)
