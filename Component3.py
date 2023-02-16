@@ -73,7 +73,7 @@ while not quit_game:
     pygame.display.update()
     if snake_x == food_x -10 and snake_y == food_y-10:
         food_x = round(random.randrange(20, screen_width-20) / 20.0) * 20.0
-        
+        food_y = round(random.randrange(20, screen_height-20) / 20.0) * 20.0
     clock.tick(5)
 
 message("You died", black, white)
