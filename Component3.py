@@ -75,8 +75,6 @@ while not quit_game:
     if snake_x == food_x and snake_y == food_y:
         food_x = round(random.randrange(20, screen_width-20) / 20.0) * 20.0
         food_y = round(random.randrange(20, screen_height-20) / 20.0) * 20.0
-        score += 1
-    clock.tick(speed)
     clock.tick(5)
 
 message("You died", black, white)
