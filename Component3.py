@@ -3,7 +3,7 @@ import time
 pygame.init()
 
 def message(msg, txt_colour, bkgd_colour):
-    txt = msg
+    txt = msg_font.render(msg, True, txt_colour, bkgd_colour)
 
 speed = 20
 screen_width = 1000
