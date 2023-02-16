@@ -17,7 +17,7 @@ green = (0, 255, 0)
 
 # score_font = pygame.font.Font('arialblack', 20)
 # exit_font = pygame.font.Font('arialblack', 30)
-
+clock = pygame.time.Clock()
 
 quit_game = False
 snake_x = (screen_width-20) / 2
