@@ -2,7 +2,7 @@ import pygame
 import time
 pygame.init()
 
-def message
+def message(msg)
 
 speed = 20
 screen_width = 1000
