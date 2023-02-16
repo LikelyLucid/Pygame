@@ -13,6 +13,7 @@ pygame.display.set_caption("Snake")
 black = (0, 0, 0)
 white = (255, 255, 255)
 red = (255, 0, 0)
+green = (0, 255, 0)
 
 quit_game = False
 while not quit_game:
