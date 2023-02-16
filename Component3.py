@@ -40,7 +40,7 @@ snake_x_change = 0
 snake_y_change = 0
 
 food_x = round(random.randrange(20, screen_width-20) / 20.0) * 20.0
-
+food
 while not quit_game:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
