@@ -19,7 +19,7 @@ green = (0, 255, 0)
 # exit_font = pygame.font.Font('arialblack', 30)
 
 quit_game = False
-
+snake
 while not quit_game:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
