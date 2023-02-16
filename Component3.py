@@ -25,6 +25,7 @@ snake_x = (screen_width-20) / 2
 snake_y = (screen_height-20) / 2
 
 snake_x_change = 0
+sna
 while not quit_game:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
