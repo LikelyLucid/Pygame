@@ -1,6 +1,7 @@
 import pygame
 import time
 pygame.init()
+
 speed = 20
 screen_width = 1000
 screen_height = 720
