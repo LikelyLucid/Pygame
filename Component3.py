@@ -2,6 +2,9 @@ import pygame
 import time
 pygame.init()
 
+score_font = pygame.font.SysFont('arialblack', 20)
+exit_font = pygame.font.SysFont('arialblack', 30)
+msg_font = pygame.font.SysFont('franklingothicmediumcond', 20)
 def message(msg, txt_colour, bkgd_colour):
     txt = msg_font.render(msg, True, txt_colour, bkgd_colour)
 
@@ -20,9 +23,7 @@ white = (255, 255, 255)
 red = (255, 0, 0)
 green = (0, 255, 0)
 
-score_font = pygame.font.SysFont('arialblack', 20)
-exit_font = pygame.font.SysFont('arialblack', 30)
-msg_font = pygame.font.SysFont('franklingothicmediumcond', 20)
+
 clock = pygame.time.Clock()
 
 quit_game = False
