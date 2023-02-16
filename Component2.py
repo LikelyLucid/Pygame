@@ -11,7 +11,7 @@ pygame.display.set_caption("Snake")
 # tuples containing colors to be used in game
 # Black, white, red, green
 black = (0, 0, 0)
-
+white
 
 quit_game = False
 while not quit_game:
