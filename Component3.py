@@ -20,7 +20,7 @@ white = (255, 255, 255)
 red = (255, 0, 0)
 green = (0, 255, 0)
 
-# score_font = pygame.font.Font('arialblack', 20)
+# score_font = pygame.font.SysFont('arialblack', 20)
 # exit_font = pygame.font.Font('arialblack', 30)
 clock = pygame.time.Clock()
 
