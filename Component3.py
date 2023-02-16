@@ -72,7 +72,7 @@ while not quit_game:
     screen.blit(pygame.transform.scale(burger, (scale, scale)), (food_x, food_y))
     pygame.display.update()
     #check collision with food
-    if snake_x >
+    if 
     clock.tick(5)
 
 message("You died", black, white)
