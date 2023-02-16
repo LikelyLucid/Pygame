@@ -7,6 +7,7 @@ score_font = pygame.font.SysFont('arialblack', 20)
 exit_font = pygame.font.SysFont('arialblack', 30)
 msg_font = pygame.font.SysFont('franklingothicmediumcond', 20)
 
+def lose
 def message(msg, txt_colour, bkgd_colour):
     txt = msg_font.render(msg, True, txt_colour, bkgd_colour)
     text_box = txt.get_rect(center=(screen_width/2, screen_height/2))
