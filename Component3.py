@@ -22,7 +22,7 @@ green = (0, 255, 0)
 
 score_font = pygame.font.SysFont('arialblack', 20)
 exit_font = pygame.font.SysFont('arialblack', 30)
-msg_font = pygame.font.SysFont('franklingothicmediumcond', 30)
+msg_font = pygame.font.SysFont('franklingothicmediumcond', 20)
 clock = pygame.time.Clock()
 
 quit_game = False
