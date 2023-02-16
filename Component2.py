@@ -18,8 +18,8 @@ green = (0, 255, 0)
 # score_font = pygame.font.Font('arialblack', 20)
 # exit_font = pygame.font.Font('arialblack', 30)
 
-
 quit_game = False
+
 while not quit_game:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
