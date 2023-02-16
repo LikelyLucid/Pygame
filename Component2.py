@@ -19,7 +19,7 @@ green = (0, 255, 0)
 # exit_font = pygame.font.Font('arialblack', 30)
 
 quit_game = False
-snake_x = screen_width-20 / 2
+snake_x = screen_width / 2
 snake_y = screen_height-20 / 2
 
 while not quit_game:
