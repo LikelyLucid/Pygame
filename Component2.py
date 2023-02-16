@@ -8,7 +8,7 @@ game_icon = pygame.image.load("icon.jpg")
 pygame.display.set_icon(game_icon)
 pygame.display.set_caption("Snake")
 
-
+# tuples containing 
 
 quit_game = False
 while not quit_game:
