@@ -69,6 +69,6 @@ while not quit_game:
     clock.tick(5)
 
 message("You died", black, white)
-
+pygame.display.update()
 pygame.quit()
 quit()
