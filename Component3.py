@@ -47,6 +47,8 @@ while not quit_game:
                 snake_x_change = 0
     snake_x += snake_x_change
     snake_y += snake_y_change
+
+    screen.fill(black)
     pygame.draw.rect(screen, red, (snake_x, snake_y, 20, 20))
     pygame.display.update()
 
