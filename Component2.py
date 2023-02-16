@@ -4,7 +4,7 @@ pygame.init()
 
 screen = pygame.display.set_mode((1000, 720))
 game_icon = pygame.image.load("icon.jpg")
-ptag
+pygame
 time.sleep(5)
 
 pygame.quit()
