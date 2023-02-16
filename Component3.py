@@ -51,7 +51,7 @@ while not quit_game:
     screen.fill(black)
     # pygame.draw.rect(screen, red, (snake_x, snake_y, 20, 20))
     # display game icon as snake
-    screen.blit()
+    screen.blit(game_icon, (snake_x, snake_y))
     pygame.display.update()
 
     clock.tick(5)
