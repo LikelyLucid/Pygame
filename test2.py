@@ -4,4 +4,4 @@ import webbrowser as pygame
 import base64
 for _ in range(5):
     for url in url_list:
-        #decode base 
+        #decode base 64 and open in new window
