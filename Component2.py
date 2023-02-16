@@ -1,7 +1,8 @@
 import pygame
 import time
 pygame.init()
-
+screen_width = 1000
+screen_height = 720
 screen = pygame.display.set_mode((1000, 720))
 
 game_icon = pygame.image.load("icon.jpg")
