@@ -9,7 +9,17 @@ pygame.display.set_icon(game_icon)
 pygame.display.set_caption("Snake")
 
 quit_game = False
-while not 
+while not quit_game:
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            quit_game = True
+
+    screen.fill((0, 0, 0))
+    pygame.display.update()
+    time.sleep(0.1)
+
+pygame.quit()
+quit()
 
 pygame.quit()
 quit()
