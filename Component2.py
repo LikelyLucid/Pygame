@@ -14,9 +14,6 @@ while not quit_game:
         if event.type == pygame.QUIT:
             quit_game = True
 
-    screen.fill((0, 0, 0))
-    pygame.display.update()
-    time.sleep(0.1)
 
 pygame.quit()
 quit()
