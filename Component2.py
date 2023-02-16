@@ -26,7 +26,7 @@ while not quit_game:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             quit_game = True
-    pya
+    pygame.draw.rect
 
 pygame.quit()
 quit()
