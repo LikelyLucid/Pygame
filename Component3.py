@@ -2,7 +2,8 @@ import pygame
 import time
 pygame.init()
 
-def message(msg, txt_colour, bkgd_colour)
+def message(msg, txt_colour, bkgd_colour):
+    txt 
 
 speed = 20
 screen_width = 1000
