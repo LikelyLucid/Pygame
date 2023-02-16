@@ -33,6 +33,18 @@ while not quit_game:
         if event.type == pygame.QUIT:
             quit_game = True
         if event.type == pygame.KEYDOWN:
+            if event.key == pygame.K_RIGHT:
+                snake_x_change = speed
+                snake_y_change = 0
+            if event.key == pygame.K_LEFT:
+                snake_x_change = -speed
+                snake_y_change = 0
+            if event.key == pygame.K_UP:
+                snake_y_change = -speed
+                snake_x_change = 0
+            if event.key == pygame.K_DOWN:
+                snake_y_change = speed
+                snake_x_change = 0
     pygame.draw.rect(screen, red, (snake_x, snake_y, 20, 20))
     pygame.display.update()
 
