@@ -19,7 +19,8 @@ green = (0, 255, 0)
 # exit_font = pygame.font.Font('arialblack', 30)
 
 quit_game = False
-snake_x = screen
+snake_x = screen_width / 2
+s
 while not quit_game:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
