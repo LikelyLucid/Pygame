@@ -33,7 +33,6 @@ while not quit_game:
         if event.type == pygame.QUIT:
             quit_game = True
         if event.type == pygame.KEYDOWN:
-            
     pygame.draw.rect(screen, red, (snake_x, snake_y, 20, 20))
     pygame.display.update()
 
