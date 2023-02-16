@@ -9,7 +9,6 @@ pygame.display.set_icon(game_icon)
 pygame.display.set_caption("Snake")
 
 # tuples containing colors to be used in game
-# Black, white, red, green
 black = (0, 0, 0)
 white = (255, 255, 255)
 red = (255, 0, 0)
