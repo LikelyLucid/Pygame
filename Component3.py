@@ -71,7 +71,7 @@ while not quit_game:
     screen.blit(pygame.transform.scale(game_icon, (scale, scale)), (snake_x, snake_y))
     screen.blit(pygame.transform.scale(burger, (scale, scale)), (food_x, food_y))
     pygame.display.update()
-    if snake_x == food_x +  and snake_y == food_y-scale:
+    if snake_x == food_x + scale and snake_y == food_y-scale:
         food_x = round(random.randrange(20, screen_width-20) / 20.0) * 20.0
         food_y = round(random.randrange(20, screen_height-20) / 20.0) * 20.0
     clock.tick(5)
