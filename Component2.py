@@ -26,7 +26,7 @@ while not quit_game:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             quit_game = True
-    pygame.draw.rect(screen, white, (s, snake_x, 20, 20))
+    pygame.draw.rect(screen, white, (snake_y, snake_x, 20, 20))
     pygame.display.update()
 
 pygame.quit()
