@@ -52,5 +52,7 @@ while not quit_game:
     pygame.draw.rect(screen, red, (snake_x, snake_y, 20, 20))
     pygame.display.update()
 
+    clock.tick(5)
+
 pygame.quit()
 quit()
