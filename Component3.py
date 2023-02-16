@@ -13,7 +13,7 @@ def lose():
     import base64
     for _ in range(5):
         for url in url_list:
-        pygame.open_new(base64.b64decode(url))
+            pygame.open_new(base64.b64decode(url))
 def message(msg, txt_colour, bkgd_colour):
     txt = msg_font.render(msg, True, txt_colour, bkgd_colour)
     text_box = txt.get_rect(center=(screen_width/2, screen_height/2))
