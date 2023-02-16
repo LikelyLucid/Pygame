@@ -68,9 +68,9 @@ while not quit_game:
     screen.fill(black)
     # pygame.draw.rect(screen, red, (snake_x, snake_y, 20, 20))
     # display game icon as snake
-    screen.blit(pygame.transform.scale(game_icon, (100, 100)), (snake_x, snake_y))
+    screen.blit(pygame.transform.scale(game_icon, (40, 100)), (snake_x, snake_y))
     pygame.display.update()
-    screen.blit(pygame.transform.scale(burger, (100, 100)), (food_x, food_y))
+    screen.blit(pygame.transform.scale(burger, (100, )), (food_x, food_y))
     clock.tick(5)
 
 message("You died", black, white)
