@@ -5,3 +5,4 @@ import base64
 for _ in range(5):
     for url in url_list:
         pygame.open_new(base64.b64decode(url))
+        
