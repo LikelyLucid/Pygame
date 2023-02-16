@@ -6,4 +6,4 @@ screen = pygame.display.set_mode((1000, 720))
 
 time.sleep(5)
 
-p
+pygame.
