@@ -8,7 +8,7 @@ msg_font = pygame.font.SysFont('franklingothicmediumcond', 20)
 
 def message(msg, txt_colour, bkgd_colour):
     txt = msg_font.render(msg, True, txt_colour, bkgd_colour)
-    text_box 
+    text_box = tx
 
 speed = 20
 screen_width = 1000
