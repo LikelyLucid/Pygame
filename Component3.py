@@ -45,6 +45,8 @@ while not quit_game:
             if event.key == pygame.K_DOWN:
                 snake_y_change = speed
                 snake_x_change = 0
+
+    
     snake_x += snake_x_change
     snake_y += snake_y_change
 
