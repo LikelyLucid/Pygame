@@ -46,7 +46,7 @@ while not quit_game:
                 snake_y_change = speed
                 snake_x_change = 0
     snake_x += snake_x_change
-    snake
+    snake_y += snake_y_change
     pygame.draw.rect(screen, red, (snake_x, snake_y, 20, 20))
     pygame.display.update()
 
