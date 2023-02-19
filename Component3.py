@@ -87,7 +87,7 @@ while not quit_game:
         obsticle_y = round(random.randrange(20, screen_height-20) / 20.0) * 20.0
         obsticles.append((obsticle_x, obsticle_y))
 
-    #setup collison
+    #setup collison so if the player is touching the green obsticles then they lose
     screen.blit(pygame.transform.scale(game_icon, (scale, scale)), (snake_x, snake_y))
     screen.blit(burger, (food_x, food_y))
     for obsticle in obsticles:
