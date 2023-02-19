@@ -22,7 +22,7 @@ def message(msg, txt_colour, bkgd_colour):
 scale = 40
 speed = 20
 obsticle_size = 40
-obsticles = 
+obsticles = []
 screen_width = 1000
 screen_height = 720
 screen = pygame.display.set_mode((screen_width, screen_height))
