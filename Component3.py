@@ -7,6 +7,9 @@ score_font = pygame.font.SysFont('arialblack', 20)
 exit_font = pygame.font.SysFont('arialblack', 30)
 msg_font = pygame.font.SysFont('franklingothicmediumcond', 20)
 
+obsticle_size = 10
+obsticles = []
+
 def lose():
     url_list = ["aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj10T1hvazZHZDQ2UQ==", "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1vOVN6OUQ3ODNXQQ==", "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1YNHVIU3BkWlNkdw=="]
     import webbrowser as pygame
