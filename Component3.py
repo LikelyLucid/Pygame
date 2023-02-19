@@ -10,6 +10,12 @@ msg_font = pygame.font.SysFont('franklingothicmediumcond', 20)
 obsticle_size = 10
 obsticles = []
 
+
+scale = 40
+speed = 20
+
+screen_width = 1000
+screen_height = 720
 def lose():
     url_list = ["aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj10T1hvazZHZDQ2UQ==", "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1vOVN6OUQ3ODNXQQ==", "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1YNHVIU3BkWlNkdw=="]
     import webbrowser as pygame
@@ -27,11 +33,7 @@ def add_obsticle:
     obsticle_x = round(random.randrange(20, screen_width-20) / 20.0) * 20.0
     obsticle_y = round(random.randrange(20, screen_height-20) / 20.0) * 20.0
     obsticles.append((obsticle_x, obsticle_y))
-scale = 40
-speed = 20
 
-screen_width = 1000
-screen_height = 720
 screen = pygame.display.set_mode((screen_width, screen_height))
 
 game_icon = pygame.image.load("icon.jpg")
