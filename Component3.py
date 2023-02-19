@@ -18,7 +18,7 @@ screen_width = 1000
 screen_height = 720
 screen_border = 20
 
-touching_
+touching_frame = 0
 def lose():
     url_list = ["aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj10T1hvazZHZDQ2UQ==", "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1vOVN6OUQ3ODNXQQ==", "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1YNHVIU3BkWlNkdw=="]
     import webbrowser as pygame
