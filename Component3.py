@@ -90,7 +90,6 @@ while not quit_game:
     # setup collison so if the player is touching the green obsticles then they lose
     for obsticle in obsticles:
         if obsticle_x < snake_x < obsticle_x + obsticle_size and obsticle_y < snake_y < obsticle_y + obsticle_size:
-            lose()
             quit_game = True
 
     screen.blit(pygame.transform.scale(game_icon, (scale, scale)), (snake_x, snake_y))
