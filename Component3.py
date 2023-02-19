@@ -26,8 +26,6 @@ def add_obsticle:
         obsticles.append((obsticle_x, obsticle_y))
 scale = 40
 speed = 20
-obsticle_size = 10
-obsticles = []
 
 screen_width = 1000
 screen_height = 720
