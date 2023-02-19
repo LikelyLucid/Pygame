@@ -86,6 +86,8 @@ while not quit_game:
         obsticle_x = round(random.randrange(20, screen_width-20) / 20.0) * 20.0
         obsticle_y = round(random.randrange(20, screen_height-20) / 20.0) * 20.0
         obsticles.append((obsticle_x, obsticle_y))
+
+    
     screen.blit(pygame.transform.scale(game_icon, (scale, scale)), (snake_x, snake_y))
     screen.blit(burger, (food_x, food_y))
     for obsticle in obsticles:
