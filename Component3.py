@@ -79,7 +79,8 @@ while not quit_game:
     screen.blit(pygame.transform.scale(game_icon, (scale, scale)), (snake_x, snake_y))
     screen.blit(burger, (food_x, food_y))
     pygame.display.update()
-    #check collision with food
+    #check collision with food and take into account the scale
+    
     i
     clock.tick(5)
 
