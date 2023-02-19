@@ -83,9 +83,6 @@ while not quit_game:
         food_x = round(random.randrange(20, screen_width-20) / 20.0) * 20.0
         food_y = round(random.randrange(20, screen_height-20) / 20.0) * 20.0
         scale += 10
-        obsticle_x = round(random.randrange(20, screen_width-20) / 20.0) * 20.0
-        obsticle_y = round(random.randrange(20, screen_height-20) / 20.0) * 20.0
-        obsticles.append((obsticle_x, obsticle_y))
 
     # setup collison so if the player is touching the green obsticles then they lose
     for obsticle in obsticles:
