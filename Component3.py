@@ -63,9 +63,6 @@ snake_y_change = 0
 food_x = round(random.randrange(screen_border, screen_width-screen_border) / 20.0) * 20.0
 food_y = round(random.randrange(screen_border, screen_height-screen_border) / 20.0) * 20.0
 
-def new_func():
-    quit_game = True
-
 while not quit_game:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
@@ -103,7 +100,7 @@ while not quit_game:
     for obsticle in obsticles:
         obsticle_rect = pygame.Rect(obsticle[0], obsticle[1], obsticle_size, obsticle_size)
         if obsticle_rect.colliderect(pygame.Rect(snake_x, snake_y, icon_size.get_width(), icon_size.get_height())):
-            new_func()
+            quit_game = True
 
     screen.blit(pygame.transform.scale(game_icon, (scale, scale)), (snake_x, snake_y))
     screen.blit(burger, (food_x, food_y))
