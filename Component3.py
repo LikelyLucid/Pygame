@@ -80,7 +80,7 @@ while not quit_game:
     screen.blit(burger, (food_x, food_y))
     pygame.display.update()
     #check collision with food
-    if (food_x > snake_x and food_x < (snake_x + 20)) and (food_y > snake_y and food_y < (snake_y + 20)):
+    if (food_x > snake_x and food_x < (snake_x + )) and (food_y > snake_y and food_y < (snake_y + 20)):
         food_x = round(random.randrange(20, screen_width-20) / 20.0) * 20.0
         food_y = round(random.randrange(20, screen_height-20) / 20.0) * 20.0
         scale += 20
