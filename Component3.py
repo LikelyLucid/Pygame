@@ -80,7 +80,7 @@ while not quit_game:
     screen.blit(burger, (food_x, food_y))
     pygame.display.update()
     #check collision with food and take into account the scale
-    if food
+    if food_x
     clock.tick(5)
 
 message("You died", black, white)
