@@ -21,8 +21,9 @@ def message(msg, txt_colour, bkgd_colour):
     screen.blit(txt, text_box)
 scale = 40
 speed = 20
-obsticle_size = 40
+obsticle_size = 10
 obsticles = []
+
 screen_width = 1000
 screen_height = 720
 screen = pygame.display.set_mode((screen_width, screen_height))
