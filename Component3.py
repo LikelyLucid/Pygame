@@ -77,7 +77,7 @@ while not quit_game:
     # pygame.draw.rect(screen, red, (snake_x, snake_y, 20, 20))
     # display game icon as snake
     screen.blit(pygame.transform.scale(game_icon, (scale, scale)), (snake_x, snake_y))
-    screen.blit(pygame.transform.scale(burger, (scale, scale)), (food_x, food_y))
+    screen.blit(burger, (food_x, food_y))
     pygame.display.update()
     #check collision with food
     if (food_x > snake_x and food_x < (snake_x + 20)) and (food_y > snake_y and food_y < (snake_y + 20)):
