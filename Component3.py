@@ -20,7 +20,10 @@ def message(msg, txt_colour, bkgd_colour):
     text_box = txt.get_rect(center=(screen_width/2, screen_height/2))
     screen.blit(txt, text_box)
 
-def add_obsticle
+def add_obsticle:
+    obsticle_x = round(random.randrange(20, screen_width-20) / 20.0) * 20.0
+        obsticle_y = round(random.randrange(20, screen_height-20) / 20.0) * 20.0
+        obsticles.append((obsticle_x, obsticle_y))
 scale = 40
 speed = 20
 obsticle_size = 10
