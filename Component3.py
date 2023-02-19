@@ -89,7 +89,7 @@ while not quit_game:
     # pygame.draw.rect(screen, red, (snake_x, snake_y, 20, 20))
     # display game icon as snake
     food_rect = pygame.Rect(food_x, food_y, burger.get_width(), burger.get_height())
-    if food_rect.colliderect(pygame.Rect(snake_x, snake_y, 20, 20)):
+    if food_rect.colliderect(pygame.Rect(snake_x, snake_y, )):
         food_x = round(random.randrange(20, screen_width-20) / 20.0) * 20.0
         food_y = round(random.randrange(20, screen_height-20) / 20.0) * 20.0
         scale += 10
