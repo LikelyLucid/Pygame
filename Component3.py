@@ -26,7 +26,7 @@ screen_height = 720
 screen = pygame.display.set_mode((screen_width, screen_height))
 
 game_icon = pygame.image.load("icon.jpg")
-burger = pygame.transform.scale(pygame.image.load("burger.png"), (20, 20))
+burger = pygame.transform.scale(pygame.image.load("burger.png"), (40, 40))
 pygame.display.set_icon(game_icon)
 pygame.display.set_caption("Snake")
 
