@@ -96,7 +96,8 @@ while not quit_game:
 
     # setup collison so if the player is touching the green obsticles then they lose
     for obsticle in obsticles:
-        obsticle
+        obsticle_rect = pygame.Rect(obsticle[0], obsticle[1], obsticle_size, obsticle_size)
+        
 
     screen.blit(pygame.transform.scale(game_icon, (scale, scale)), (snake_x, snake_y))
     screen.blit(burger, (food_x, food_y))
