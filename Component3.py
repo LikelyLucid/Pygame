@@ -73,6 +73,7 @@ while not quit_game:
     snake_x += snake_x_change
     snake_y += snake_y_change
     icon_size = pygame.transform.scale(game_icon, (scale,scale))
+    icon
     screen.fill(black)
     # pygame.draw.rect(screen, red, (snake_x, snake_y, 20, 20))
     # display game icon as snake
