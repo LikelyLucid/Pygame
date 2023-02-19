@@ -25,8 +25,8 @@ def message(msg, txt_colour, bkgd_colour):
 
 def add_obsticle:
     obsticle_x = round(random.randrange(20, screen_width-20) / 20.0) * 20.0
-        obsticle_y = round(random.randrange(20, screen_height-20) / 20.0) * 20.0
-        obsticles.append((obsticle_x, obsticle_y))
+    obsticle_y = round(random.randrange(20, screen_height-20) / 20.0) * 20.0
+    obsticles.append((obsticle_x, obsticle_y))
 scale = 40
 speed = 20
 
