@@ -32,8 +32,8 @@ def message(msg, txt_colour, bkgd_colour):
     screen.blit(txt, text_box)
 
 def add_obsticle():
-    obsticle_x = round(random.randrange(screen_border, screen_width-20) / 20.0) * 20.0
-    obsticle_y = round(random.randrange(20, screen_height-20) / 20.0) * 20.0
+    obsticle_x = round(random.randrange(screen_border, screen_width-screen) / 20.0) * 20.0
+    obsticle_y = round(random.randrange(screen, screen_height-screen) / 20.0) * 20.0
     obsticles.append((obsticle_x, obsticle_y))
 
 screen = pygame.display.set_mode((screen_width, screen_height))
@@ -60,8 +60,8 @@ snake_y = (screen_height-20) / 2
 snake_x_change = 0
 snake_y_change = 0
 
-food_x = round(random.randrange(20, screen_width-20) / 20.0) * 20.0
-food_y = round(random.randrange(20, screen_height-20) / 20.0) * 20.0
+food_x = round(random.randrange(screen, screen_width-screen) / 20.0) * 20.0
+food_y = round(random.randrange(screen, screen_height-screen) / 20.0) * 20.0
 
 while not quit_game:
     for event in pygame.event.get():
@@ -91,8 +91,8 @@ while not quit_game:
     # display game icon as snake
     food_rect = pygame.Rect(food_x, food_y, burger.get_width(), burger.get_height())
     if food_rect.colliderect(pygame.Rect(snake_x, snake_y, scale, scale)):
-        food_x = round(random.randrange(20, screen_width-20) / 20.0) * 20.0
-        food_y = round(random.randrange(20, screen_height-20) / 20.0) * 20.0
+        food_x = round(random.randrange(screen, screen_width-screen) / 20.0) * 20.0
+        food_y = round(random.randrange(screen, screen_height-screen) / 20.0) * 20.0
         scale += 10
         add_obsticle()
 
