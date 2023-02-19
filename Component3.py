@@ -105,7 +105,8 @@ while not quit_game:
         obsticle_rect = pygame.Rect(obsticle[0], obsticle[1], obsticle_size, obsticle_size)
         if obsticle_rect.colliderect(pygame.Rect(snake_x, snake_y, icon_size.get_width(), icon_size.get_height())):
             touching_frame += 1
-    if buffer_number 
+    if buffer_number == touching_frame:
+        
     if touching_frame > 10:
         quit_game = True
     screen.blit(pygame.transform.scale(game_icon, (scale, scale)), (snake_x, snake_y))
