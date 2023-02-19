@@ -100,7 +100,7 @@ while not quit_game:
     # setup collison so if the player is touching the green obsticles then they lose
     buffer_number = touching_frame
     for obsticle in obsticles:
-        if 
+        if buffer
         obsticle_rect = pygame.Rect(obsticle[0], obsticle[1], obsticle_size, obsticle_size)
         if obsticle_rect.colliderect(pygame.Rect(snake_x, snake_y, icon_size.get_width(), icon_size.get_height())):
             touching_frame += 1
