@@ -90,8 +90,6 @@ while not quit_game:
     for obsticle in obsticles:
         pygame.draw.rect(screen, green, (obsticle[0], obsticle[1], obsticle_size, obsticle_size))
     pygame.display.update()
-    clock.tick(30)
-    pygame.display.update()
     #check collision with food and take into account the scale
 
     clock.tick(5)
