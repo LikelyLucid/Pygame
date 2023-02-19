@@ -97,7 +97,7 @@ while not quit_game:
     # setup collison so if the player is touching the green obsticles then they lose
     for obsticle in obsticles:
         print(obsticle[0], obsticle[1])
-        if obsticle[0] < snake_x < obsticle[0] + obsticle_size and obsticle[1] > snake_y < obsticle[1] + obsticle_size:
+        if obsticle[0] < snake_x < obsticle[0] + obsticle_size and obsticle[1] > snake_y > obsticle[1] + obsticle_size:
             lose()
             quit_game = True
 
