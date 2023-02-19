@@ -98,6 +98,7 @@ while not quit_game:
         add_obsticle()
 
     # setup collison so if the player is touching the green obsticles then they lose
+    
     for obsticle in obsticles:
         obsticle_rect = pygame.Rect(obsticle[0], obsticle[1], obsticle_size, obsticle_size)
         if obsticle_rect.colliderect(pygame.Rect(snake_x, snake_y, icon_size.get_width(), icon_size.get_height())):
