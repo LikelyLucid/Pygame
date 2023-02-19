@@ -79,7 +79,8 @@ while not quit_game:
     if snake_x < food_x < snake_x + icon_size.get_height() and snake_y < food_y < snake_y + icon_size.get_width():
         food_x = round(random.randrange(20, screen_width-20) / 20.0) * 20.0
         food_y = round(random.randrange(20, screen_height-20) / 20.0) * 20.0
-        scale += 10screen.blit(pygame.transform.scale(game_icon, (scale, scale)), (snake_x, snake_y))
+        scale += 10
+    screen.blit(pygame.transform.scale(game_icon, (scale, scale)), (snake_x, snake_y))
     screen.blit(burger, (food_x, food_y))
     pygame.display.update()
     #check collision with food and take into account the scale
