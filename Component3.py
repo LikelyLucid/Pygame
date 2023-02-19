@@ -19,6 +19,8 @@ def message(msg, txt_colour, bkgd_colour):
     txt = msg_font.render(msg, True, txt_colour, bkgd_colour)
     text_box = txt.get_rect(center=(screen_width/2, screen_height/2))
     screen.blit(txt, text_box)
+
+def add_obsticle
 scale = 40
 speed = 20
 obsticle_size = 10
