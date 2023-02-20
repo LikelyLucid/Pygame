@@ -55,7 +55,7 @@ def add_obsticle():
     obsticles.append((obsticle_x, obsticle_y))
 
 def bite_sound():
-    
+    number=ra
     mixer.music.load("bite.mp3")
     mixer.music.play()
 
