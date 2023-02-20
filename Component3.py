@@ -55,6 +55,7 @@ def add_obsticle():
     obsticles.append((obsticle_x, obsticle_y))
 
 
+
 screen = pygame.display.set_mode((screen_width, screen_height))
 
 game_icon = pygame.image.load("icon.jpg")
