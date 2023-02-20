@@ -56,7 +56,7 @@ def add_obsticle():
 
 def bite_sound():
     number = random.randrange(1, 6)
-    mixer.music.load("bite.mp3")
+    mixer.music.load(f"bite.mp3")
     mixer.music.play()
 
 screen = pygame.display.set_mode((screen_width, screen_height))
