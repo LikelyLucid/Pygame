@@ -1,7 +1,7 @@
 import pygame
 import time
 import random
-
+from pygame import mixer
 pygame.init()
 
 score_font = pygame.font.SysFont("arialblack", 20)
@@ -146,7 +146,7 @@ while not quit_game:
 
     if touching_frame > 10:
         quit_game = True
-    
+
     screen.blit(pygame.transform.scale(game_icon, (scale, scale)), (snake_x, snake_y))
     screen.blit(burger, (food_x, food_y))
     for obsticle in obsticles:
