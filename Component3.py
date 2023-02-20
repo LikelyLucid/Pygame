@@ -2,6 +2,7 @@ import pygame
 import time
 import random
 from pygame import mixer
+mixer.init()
 pygame.init()
 
 score_font = pygame.font.SysFont("arialblack", 20)
