@@ -127,7 +127,7 @@ while not quit_game:
             round(random.randrange(screen_border, screen_height - screen_border) / 20.0)
             * 20.0
         )
-        scale += 10x 
+        scale += 10
         add_obsticle()
 
     # setup collison so if the player is touching the green obsticles then they lose
