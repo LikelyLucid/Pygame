@@ -2,6 +2,7 @@ import pygame
 import time
 import random
 from pygame import mixer
+
 mixer.init()
 pygame.init()
 
@@ -53,7 +54,6 @@ def add_obsticle():
         * 20.0
     )
     obsticles.append((obsticle_x, obsticle_y))
-
 
 
 screen = pygame.display.set_mode((screen_width, screen_height))
