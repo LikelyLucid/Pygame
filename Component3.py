@@ -1,7 +1,7 @@
 import pygame
 import time
 import random
-from pygame import mixer
+import playsound
 
 pygame.init()
 
