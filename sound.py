@@ -1,3 +1,3 @@
 import playsound
 number = random.randint(1, 6)
-playsound.playsound("./biting" + str(number) + ".wav")
+playsound.playsound(f"./biting{number}.wav")
