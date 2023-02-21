@@ -22,6 +22,7 @@ screen_border = 20
 
 touching_frame = 0
 
+def bite
 
 def lose():
     url_list = [
