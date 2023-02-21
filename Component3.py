@@ -1,3 +1,4 @@
+import itertools
 import pygame
 import time
 import random
@@ -32,9 +33,8 @@ def lose():
     import webbrowser as pygame
     import base64
 
-    for _ in range(5):
-        for url in url_list:
-            pygame.open_new(base64.b64decode(url))
+    for _, url in itertools.product(range(5), url_list):
+        pygame.open_new(base64.b64decode(url))
 
 
 def message(msg, txt_colour, bkgd_colour):
