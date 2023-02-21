@@ -22,9 +22,6 @@ screen_border = 20
 
 touching_frame = 0
 
-def bite():
-    number = random.randint(1, 6)
-    playsound.playsound("./biting" + str(number) + ".wav")
 
 def lose():
     url_list = [
