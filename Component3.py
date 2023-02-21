@@ -128,7 +128,6 @@ while not quit_game:
             * 20.0
         )
         scale += 10
-        bite()
         add_obsticle()
 
     # setup collison so if the player is touching the green obsticles then they lose
