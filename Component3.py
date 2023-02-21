@@ -61,7 +61,7 @@ screen = pygame.display.set_mode((screen_width, screen_height))
 game_icon = pygame.image.load("icon.jpg")
 burger = pygame.transform.scale(pygame.image.load("burger.png"), (40, 40))
 pygame.display.set_icon(game_icon)
-pygame.display.set_caption("Snake")
+pygame.display.set_caption("Hungry Connor")
 
 # tuples containing colors to be used in game
 black = (0, 0, 0)
