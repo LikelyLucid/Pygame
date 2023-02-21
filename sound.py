@@ -4,4 +4,4 @@ import random
 mixer.init()
 # play biting1.wav
 mixer.music.load("biting1.wav")
-mi
+mixer.music.play()
