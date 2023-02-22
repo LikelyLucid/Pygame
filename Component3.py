@@ -1,4 +1,3 @@
-import itertools
 import pygame
 import time
 import random
