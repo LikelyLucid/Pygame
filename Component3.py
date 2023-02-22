@@ -147,6 +147,5 @@ while not quit_game:
 message("You died", black, white)
 pygame.display.update()
 time.sleep(3)
-lose()
 pygame.quit()
 quit()
